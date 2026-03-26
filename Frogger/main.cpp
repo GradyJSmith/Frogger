@@ -164,7 +164,7 @@ struct Log {
 };
 
 // Cars driving on roads
-// NOTE: Car.x is CENTER X now (not leftmost) — this avoids placement/rotation off-by-half issues.
+// NOTE: Car.x is CENTER X now (not leftmost) â€” this avoids placement/rotation off-by-half issues.
 struct Car {
     float x;    // center pixel X
     float y;    // center y of road row
@@ -281,14 +281,14 @@ int main() {
 
     srand((unsigned)time(nullptr));
 
-    Texture2D frogTexture = LoadTexture("C:/Users/grady/source/repos/Frogger/images/frog.png");
-    Texture2D woodTexture = LoadTexture("C:/Users/grady/source/repos/Frogger/images/wood.jpg");
-    Texture2D roadTexture = LoadTexture("C:/Users/grady/source/repos/Frogger/images/road.png");
-    Texture2D grassTexture = LoadTexture("C:/Users/grady/source/repos/Frogger/images/grass.png");
-    Texture2D waterTexture = LoadTexture("C:/Users/grady/source/repos/Frogger/images/water.png");
-    Texture2D carTexture = LoadTexture("C:/Users/grady/source/repos/Frogger/images/car.png");
+    Texture2D frogTexture = LoadTexture("Your File Path /images/frog.png");
+    Texture2D woodTexture = LoadTexture("Your File Path /images/wood.jpg");
+    Texture2D roadTexture = LoadTexture("Your File Path /images/road.png");
+    Texture2D grassTexture = LoadTexture("Your File Path /images/grass.png");
+    Texture2D waterTexture = LoadTexture("Your File Path /images/water.png");
+    Texture2D carTexture = LoadTexture("Your File Path /images/car.png");
 
-	Music Background = LoadMusicStream("C:/Users/grady/source/repos/Frogger/sounds/background.mp3");
+	Music Background = LoadMusicStream("Your File Path /sounds/background.mp3");
 
     cout << "The frog texture is " << frogTexture.width << " pixels wide and " << frogTexture.height << " pixels tall." << endl;
     cout << "The wood texture is " << woodTexture.width << " pixels wide and " << woodTexture.height << " pixels tall." << endl;
